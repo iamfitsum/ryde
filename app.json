@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "uber-clone",
-    "slug": "uber-clone",
+    "name": "Uber",
+    "slug": "uber",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -27,10 +27,9 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
+          "image": "./assets/images/splash.png",
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#2f80ed"
         }
       ]
     ],
