@@ -1,11 +1,12 @@
-import CustomButton from "@/components/CustomButton";
-import InputField from "@/components/InputField";
-import OAuth from "@/components/OAuth";
-import { icons, images } from "@/constants";
 import { useSignIn } from "@clerk/clerk-expo";
 import { Link, router } from "expo-router";
 import { useCallback, useState } from "react";
 import { Image, ScrollView, Text, View } from "react-native";
+
+import CustomButton from "@/components/CustomButton";
+import InputField from "@/components/InputField";
+import OAuth from "@/components/OAuth";
+import { icons, images } from "@/constants";
 
 const SignIn = () => {
   const { signIn, setActive, isLoaded } = useSignIn();
@@ -79,7 +80,6 @@ const SignIn = () => {
             <Text className="text-primary-500">Sign Up</Text>
           </Link>
         </View>
-        {/* TODO: Verification Modal */}
       </View>
     </ScrollView>
   );

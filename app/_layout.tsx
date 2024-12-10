@@ -1,11 +1,13 @@
+import { ClerkLoaded, ClerkProvider } from "@clerk/clerk-expo";
 import { useFonts } from "expo-font";
 import { Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { useEffect } from "react";
 import "react-native-reanimated";
 import "../global.css";
-import { ClerkProvider, ClerkLoaded } from "@clerk/clerk-expo";
+
 import { tokenCache } from "@/lib/auth";
+// import 'react-native-get-random-values';
 
 const publishableKey = process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY!;
 

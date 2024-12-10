@@ -1,6 +1,7 @@
-import { ButtonProps } from "@/types/type";
 import React from "react";
 import { Text, TouchableOpacity } from "react-native";
+
+import { ButtonProps } from "@/types/type";
 
 const getBgVariantStyle = (variant: ButtonProps["bgVariant"]) => {
   switch (variant) {
