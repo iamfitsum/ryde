@@ -8,8 +8,6 @@ const RideCard = ({
   ride: {
     destination_longitude,
     destination_latitude,
-    origin_longitude,
-    origin_latitude,
     destination_address,
     origin_address,
     created_at,

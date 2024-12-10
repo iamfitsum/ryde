@@ -44,7 +44,7 @@ const Payment = ({
   };
 
   const initializePaymentSheet = async () => {
-    const { error } = await initPaymentSheet({
+    await initPaymentSheet({
       merchantDisplayName: "Ryde, Inc.",
       intentConfiguration: {
         mode: {
@@ -112,10 +112,6 @@ const Payment = ({
       },
       returnURL: "myapp://book-ride",
     });
-
-    if (!error) {
-      // setLoading(true);
-    }
   };
 
   return (
